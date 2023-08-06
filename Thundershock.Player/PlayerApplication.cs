@@ -1,27 +1,32 @@
+using Thundershock.Windowing;
+using Thundershock.Windowing.Glfw;
+
 namespace Thundershock.Player;
 
 internal class PlayerApplication    : Application
 {
+	private GlfwWindowManager wm = new GlfwWindowManager();
+	private IWindow? mainWindow;
+	
 	/// <inheritdoc />
-	protected override void Initialize()
+	protected override void OnInitialize()
 	{
+		// Registers the GLFW window manager with the engine.
+		this.wm = this.WindowingModule.CreateWindowManager<GlfwWindowManager, GlfwWindow>();
 		
+		// Create the main game window.
+		mainWindow = wm.CreateWindow("Thundershock Player");
 	}
 
 	/// <inheritdoc />
-	protected override void Update()
+	protected override void OnUpdate()
 	{
-		Console.WriteLine($"Time since engine start: {Clock.TotalTime}");
-		Console.WriteLine($"Frrame time: {Clock.DeltaTime} seconds");
-
-		Console.Write("Enter some text >>> ");
-		string? text = Console.ReadLine();
-		Console.WriteLine(text);
-		
+		if (mainWindow?.IsOpen != true)
+			Exit();
 	}
 
 	/// <inheritdoc />
-	protected override void Shutdown()
+	protected override void OnShutdown()
 	{
 		
 	}

@@ -1,10 +1,18 @@
+using Thundershock.Windowing;
+
 namespace Thundershock;
 
-public abstract class Application : IDisposable
+public abstract class Application :
+	IDisposable 
 {
 	private static Application? currentInstance;
 
+	private ModuleManager moduleManager;
+	private WindowingModule windowingModule;
 	private bool exitRequested;
+
+	protected ModuleManager ModuleManager => moduleManager;
+	protected WindowingModule WindowingModule => windowingModule;
 	
 	protected Application()
 	{
@@ -16,6 +24,9 @@ public abstract class Application : IDisposable
 			throw new ApplicationException($"Instantiating two instances of the {nameof(Application)} class is not supported. You must dispose of the previous application instance before creating a new one.");
 
 		currentInstance = this;
+
+		this.moduleManager = new ModuleManager();
+		this.windowingModule = new WindowingModule();
 	}
 
 	/// <summary>
@@ -40,10 +51,12 @@ public abstract class Application : IDisposable
 		}
 	}
 
-	private void RunOneUpdate()
+	public void RunOneUpdate()
 	{
 		Clock.Elapse();
-		Update();
+		OnUpdate();
+
+		this.moduleManager.RunOneUpdate();
 	}
 	
 	private void ExitInternal()
@@ -51,9 +64,34 @@ public abstract class Application : IDisposable
 		exitRequested = true;
 	}
 
-	protected abstract void Update();
-	protected abstract void Initialize();
-	protected abstract void Shutdown();
+	private void Initialize()
+	{
+		moduleManager.AddModule(windowingModule);
+
+		moduleManager.Initialize();
+		OnInitialize();
+	}
+
+	private void Shutdown()
+	{
+		moduleManager.Shutdown();
+		OnShutdown();
+	}
+
+	protected virtual void OnUpdate()
+	{
+		
+	}
+
+	protected virtual void OnInitialize()
+	{
+		
+	}
+
+	protected virtual void OnShutdown()
+	{
+		
+	}
 
 	/// <inheritdoc />
 	public virtual void Dispose()
