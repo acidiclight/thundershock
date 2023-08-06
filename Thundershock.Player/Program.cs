@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Thundershock.Player
+{
+    public class Program
+    {
+        private static void Main(string[] args)
+        {
+            using var app = new PlayerApplication();
+            app.Run();
+        } 
+    }
+}

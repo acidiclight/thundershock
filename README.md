@@ -17,3 +17,7 @@ Build the `Thundershock.Editor` project, this is the project that you use to act
 ## Creating a project
 
 As with many game engines, Thundershock has a project system. It doesn't exist yet, so this section is to be determined.
+
+## Programming guidelines
+
+This may be my personal project but I still have standards. All code in this repository follows the Trixel Creative style guide for Restitched and TrixelAudio. If you use Rider, the editor will enforce this style. If you don't, then I will enforce it.
