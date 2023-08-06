@@ -1,0 +1,266 @@
+kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+kf.sonnet.core: No language dictionaries for the language: "en_US"
+kf.sonnet.core: No language dictionaries for the language: "en_US"
+kf.sonnet.core: No language dictionaries for the language: "en_US"
+kf.sonnet.core: No language dictionaries for the language: "en_US"
+kf.sonnet.core: No language dictionaries for the language: "en_US"
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+Debug | ByteBufferAsyncProcessor  | 30:DefaultDispatcher-worker-19 | PAUSE ('Socket not connected') :: {id = EarlyStartServerWire/Sender, state = 'Initialized'} 
+Debug | Server                    | 98:EarlyStartServerWire | EarlyStartServerWire: listening /127.0.0.1:39485 
+Gtk-Message: 20:25:13.769: Failed to load module "appmenu-gtk-module"
+Installation home directory: file:////home/ritchie/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46
+System directory: file:////home/ritchie/.cache/JetBrains/Rider2023.1
+Config directory: file:////home/ritchie/.config/JetBrains/Rider2023.1
+Log directory: file:////home/ritchie/.cache/JetBrains/Rider2023.1/log
+
+Following output will be written to a log file /home/ritchie/.cache/JetBrains/Rider2023.1/log/frontend.log
+2023-08-05 20:25:14,482 [   1148]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,483 [   1149]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xCheckbox.Foreground.Selected
+2023-08-05 20:25:14,484 [   1150]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,486 [   1152]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,486 [   1152]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xCheckbox.Foreground.Selected
+2023-08-05 20:25:14,488 [   1154]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,490 [   1156]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,490 [   1156]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xCheckbox.Foreground.Selected
+2023-08-05 20:25:14,492 [   1158]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,494 [   1160]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,494 [   1160]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xCheckbox.Foreground.Selected
+2023-08-05 20:25:14,495 [   1161]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,496 [   1162]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,496 [   1162]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xCheckbox.Foreground.Selected
+2023-08-05 20:25:14,497 [   1163]   WARN - #c.i.i.u.UITheme - No color scope defined for key: xActions.WelcomeScreen
+2023-08-05 20:25:14,666 [   1332]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/lib, version=231.9161.46, package=com.intellij.feedback, isBundled=true)
+2023-08-05 20:25:14,667 [   1333]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/lib, version=231.9161.46, package=com.intellij.feedback, isBundled=true)
+2023-08-05 20:25:14,689 [   1355]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Rider Dark - old: Rider Dark, new Rider Dark
+2023-08-05 20:25:14,694 [   1360]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Rider Light - old: Rider Light, new Rider Light
+2023-08-05 20:25:14,706 [   1372]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme ReSharper Dark - old: ReSharper Dark, new ReSharper Dark
+2023-08-05 20:25:14,708 [   1374]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme ReSharper Light - old: ReSharper Light, new ReSharper Light
+2023-08-05 20:25:14,711 [   1377]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme ReSharper Light - old: ReSharper Light, new ReSharper Light
+2023-08-05 20:25:14,713 [   1379]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme ReSharper Dark - old: ReSharper Dark, new ReSharper Dark
+2023-08-05 20:25:14,718 [   1384]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Rider Light - old: Rider Light, new Rider Light
+2023-08-05 20:25:14,724 [   1390]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Rider Melon Dark - old: Rider Melon Dark, new Rider Melon Dark
+2023-08-05 20:25:14,730 [   1396]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Rider Melon Light - old: Rider Melon Light, new Rider Melon Light
+2023-08-05 20:25:14,735 [   1401]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Rider Melon Light - old: Rider Melon Light, new Rider Melon Light
+2023-08-05 20:25:14,740 [   1406]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Rider Melon Dark - old: Rider Melon Dark, new Rider Melon Dark
+2023-08-05 20:25:14,745 [   1411]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Rider Dark - old: Rider Dark, new Rider Dark
+2023-08-05 20:25:14,746 [   1412]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Visual Assist Dark - old: Visual Assist Dark, new Visual Assist Dark
+2023-08-05 20:25:14,750 [   1416]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Visual Assist Light - old: Visual Assist Light, new Visual Assist Light
+2023-08-05 20:25:14,752 [   1418]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Visual Assist Light - old: Visual Assist Light, new Visual Assist Light
+2023-08-05 20:25:14,753 [   1419]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Visual Assist Dark - old: Visual Assist Dark, new Visual Assist Dark
+2023-08-05 20:25:14,756 [   1422]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Visual Studio Dark - old: Visual Studio Dark, new Visual Studio Dark
+2023-08-05 20:25:14,758 [   1424]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Visual Studio Light - old: Visual Studio Light, new Visual Studio Light
+2023-08-05 20:25:14,761 [   1427]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Visual Studio Light - old: Visual Studio Light, new Visual Studio Light
+2023-08-05 20:25:14,766 [   1432]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Visual Studio Dark - old: Visual Studio Dark, new Visual Studio Dark
+2023-08-05 20:25:14,825 [   1491]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=JavaScript and TypeScript, id=JavaScript, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/plugins/javascript-impl, version=231.9161.46, package=null, isBundled=true)
+2023-08-05 20:25:14,862 [   1528]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=GitHub, id=org.jetbrains.plugins.github, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/plugins/vcs-github, version=231.9161.46, package=org.jetbrains.plugins.github, isBundled=true)
+2023-08-05 20:25:14,864 [   1530]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=Space, id=com.jetbrains.space, moduleName=intellij.space.vcs, descriptorPath=intellij.space.vcs.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/plugins/space, version=231.9161.46, package=com.intellij.space.vcs, isBundled=true)
+2023-08-05 20:25:15,001 [   1667]   WARN - #c.i.n.i.NotificationGroupManagerImpl - Notification group Global Build Messages is already registered (group=com.intellij.notification.NotificationGroup@1dbc85ad). Plugin descriptor: PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/lib, version=231.9161.46, package=com.intellij.feedback, isBundled=true)
+2023-08-05 20:25:15,001 [   1667]   WARN - #c.i.n.i.NotificationGroupManagerImpl - Notification group Debugger event log messages is already registered (group=com.intellij.notification.NotificationGroup@66733779). Plugin descriptor: PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/lib, version=231.9161.46, package=com.intellij.feedback, isBundled=true)
+2023-08-05 20:25:15,001 [   1667]   WARN - #c.i.n.i.NotificationGroupManagerImpl - Notification group Rider Remote Debugger: Upload Error is already registered (group=com.intellij.notification.NotificationGroup@1b764f76). Plugin descriptor: PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/lib, version=231.9161.46, package=com.intellij.feedback, isBundled=true)
+2023-08-05 20:25:15,002 [   1668]   WARN - #c.i.n.i.NotificationGroupManagerImpl - Notification group Xcode settings warnings is already registered (group=com.intellij.notification.NotificationGroup@17e54498). Plugin descriptor: PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/lib, version=231.9161.46, package=com.intellij.feedback, isBundled=true)
+2023-08-05 20:25:15,002 [   1668]   WARN - #c.i.n.i.NotificationGroupManagerImpl - Notification group Xamarin launch is already registered (group=com.intellij.notification.NotificationGroup@6e8d2a24). Plugin descriptor: PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/231.9161.46/lib, version=231.9161.46, package=com.intellij.feedback, isBundled=true)
+2023-08-05 20:25:15,425 [   2091]   WARN - #c.i.o.v.n.p.l.VfsLog - VFS Log version differs from the implementation version: log null vs implementation -43
+2023-08-05 20:25:15,657 [   2323]   WARN - #c.j.p.PluginClassPathRuntimeCustomizer - There was more than one class loaded in Projector Plugin classloader - this is likely a bug!
+2023-08-05 20:25:15,665 [   2331]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.popup.file' is overridden by: id = [navigation.popup.file], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,665 [   2331]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.popup.symbol' is overridden by: id = [navigation.popup.symbol], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,665 [   2331]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'SearchEverywhere' is overridden by: id = [SearchEverywhere], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,665 [   2331]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.popup.camelprefix' is overridden by: id = [navigation.popup.camelprefix], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,665 [   2331]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.popup.wildcards' is overridden by: id = [navigation.popup.wildcards], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,666 [   2332]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.popup.file.structure' is overridden by: id = [navigation.popup.file.structure], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,666 [   2332]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.recent.files' is overridden by: id = [navigation.recent.files], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,666 [   2332]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.select.in' is overridden by: id = [navigation.select.in], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,666 [   2332]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.goto.declaration' is overridden by: id = [navigation.goto.declaration], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,666 [   2332]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.goto.usages' is overridden by: id = [navigation.goto.usages], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,666 [   2332]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.goto.inspection' is overridden by: id = [navigation.goto.inspection], displayName = [null], groupId = [navigation], usageCount = [0]
+2023-08-05 20:25:15,666 [   2332]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.completion.basic' is overridden by: id = [editing.completion.basic], displayName = [null], groupId = [completion], usageCount = [0]
+2023-08-05 20:25:15,666 [   2332]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.completion.replace' is overridden by: id = [editing.completion.replace], displayName = [null], groupId = [completion], usageCount = [0]
+2023-08-05 20:25:15,667 [   2333]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.completion.finishByCtrlDot' is overridden by: id = [editing.completion.finishByCtrlDot], displayName = [null], groupId = [completion], usageCount = [0]
+2023-08-05 20:25:15,667 [   2333]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.completion.finishByDotEtc' is overridden by: id = [editing.completion.finishByDotEtc], displayName = [null], groupId = [completion], usageCount = [0]
+2023-08-05 20:25:15,667 [   2333]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.completion.camelHumps' is overridden by: id = [editing.completion.camelHumps], displayName = [null], groupId = [completion], usageCount = [0]
+2023-08-05 20:25:15,667 [   2333]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.completion.cancelByControlArrows' is overridden by: id = [editing.completion.cancelByControlArrows], displayName = [null], groupId = [completion], usageCount = [0]
+2023-08-05 20:25:15,667 [   2333]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.completion.postfix' is overridden by: id = [editing.completion.postfix], displayName = [null], groupId = [completion], usageCount = [0]
+2023-08-05 20:25:15,667 [   2333]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.select.word' is overridden by: id = [editing.select.word], displayName = [null], groupId = [editing], usageCount = [0]
+2023-08-05 20:25:15,667 [   2333]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editor.delete.line' is overridden by: id = [editor.delete.line], displayName = [null], groupId = [editing], usageCount = [0]
+2023-08-05 20:25:15,668 [   2334]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'scratch' is overridden by: id = [scratch], displayName = [null], groupId = [editing], usageCount = [0]
+2023-08-05 20:25:15,668 [   2334]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'editing.add.carets.using.double.ctrl' is overridden by: id = [editing.add.carets.using.double.ctrl], displayName = [null], groupId = [editing], usageCount = [0]
+2023-08-05 20:25:15,668 [   2334]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.quickjavadoc' is overridden by: id = [codeassists.quickjavadoc], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-05 20:25:15,668 [   2334]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.quickdefinition' is overridden by: id = [codeassists.quickdefinition], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-05 20:25:15,668 [   2334]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.comment.line' is overridden by: id = [codeassists.comment.line], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-05 20:25:15,668 [   2334]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.overrideimplement' is overridden by: id = [codeassists.overrideimplement], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-05 20:25:15,668 [   2334]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.complete.statement' is overridden by: id = [codeassists.complete.statement], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'refactoring.introduceVariable' is overridden by: id = [refactoring.introduceVariable], displayName = [null], groupId = [refactoring], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'refactoring.rename' is overridden by: id = [refactoring.rename], displayName = [null], groupId = [refactoring], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'ui.tree.speedsearch' is overridden by: id = [ui.tree.speedsearch], displayName = [null], groupId = [ui], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'ui.scheme.quickswitch' is overridden by: id = [ui.scheme.quickswitch], displayName = [null], groupId = [ui], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'ui.recentchanges' is overridden by: id = [ui.recentchanges], displayName = [null], groupId = [ui], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'ui.horizontal.scrolling' is overridden by: id = [ui.horizontal.scrolling], displayName = [null], groupId = [ui], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'navigation.popup.action' is overridden by: id = [navigation.popup.action], displayName = [null], groupId = [ui], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'find.recent.search' is overridden by: id = [find.recent.search], displayName = [null], groupId = [ui], usageCount = [0]
+2023-08-05 20:25:15,669 [   2335]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'find.completion' is overridden by: id = [find.completion], displayName = [null], groupId = [ui], usageCount = [0]
+2023-08-05 20:25:15,670 [   2336]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'switcher' is overridden by: id = [switcher], displayName = [null], groupId = [ui], usageCount = [0]
+2023-08-05 20:25:15,670 [   2336]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'dir.diff' is overridden by: id = [dir.diff], displayName = [null], groupId = [diff], usageCount = [0]
+2023-08-05 20:25:17,173 [   3839]   WARN - #c.i.o.a.ActionStub - ActionGroup should be registered using <group> tag: id="SwitchProfilingConfiguration" class="com.jetbrains.dotProfiler.actions.profile.ProfilingConfigurationsActionGroup"
+2023-08-05 20:25:17,316 [   3982]   WARN - com.sun.jna.Native - JNA: Callback com.intellij.openapi.wm.impl.GlobalMenuLinux@6d7b9b19 threw the following exception
+java.lang.RuntimeException: com.intellij.openapi.actionSystem.impl.Utils$ProcessCanceledWithReasonException
+	at com.intellij.openapi.application.impl.LaterInvocator.invokeAndWait(LaterInvocator.java:133)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:448)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:468)
+	at com.intellij.openapi.wm.impl.GlobalMenuLinux._handleEvent(GlobalMenuLinux.java:728)
+	at com.intellij.openapi.wm.impl.GlobalMenuLinux.handleEvent(GlobalMenuLinux.java:678)
+	at jdk.internal.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.jna.CallbackReference$DefaultCallbackProxy.invokeCallback(CallbackReference.java:585)
+	at com.sun.jna.CallbackReference$DefaultCallbackProxy.callback(CallbackReference.java:616)
+	at com.sun.jna.Native.invokeVoid(Native Method)
+	at com.sun.jna.Function.invoke(Function.java:415)
+	at com.sun.jna.Function.invoke(Function.java:361)
+	at com.sun.jna.Library$Handler.invoke(Library.java:265)
+	at com.intellij.openapi.wm.impl.$Proxy33.runMainLoop(Unknown Source)
+	at com.intellij.openapi.wm.impl.GlobalMenuLinux.lambda$static$5(GlobalMenuLinux.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.intellij.openapi.actionSystem.impl.Utils$ProcessCanceledWithReasonException
+	at com.intellij.openapi.actionSystem.impl.Utils.runLoopAndWaitForFuture(Utils.java:842)
+	at com.intellij.openapi.actionSystem.impl.Utils.expandActionGroupImpl(Utils.java:252)
+	at com.intellij.openapi.actionSystem.impl.Utils.lambda$fillMenu$6(Utils.java:343)
+	at com.intellij.openapi.actionSystem.impl.Utils.computeWithRetries(Utils.java:855)
+	at com.intellij.openapi.actionSystem.impl.Utils.fillMenu(Utils.java:342)
+	at com.intellij.openapi.actionSystem.impl.ActionMenu.fillMenu(ActionMenu.java:451)
+	at com.intellij.openapi.wm.impl.GlobalMenuLinux.lambda$_handleEvent$11(GlobalMenuLinux.java:749)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
+	at com.intellij.openapi.application.impl.ApplicationImpl$3.run(ApplicationImpl.java:456)
+	at com.intellij.openapi.application.impl.LaterInvocator$1.run(LaterInvocator.java:101)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:79)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:122)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:788)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:731)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:758)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:667)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$7(IdeEventQueue.kt:571)
+	at com.intellij.openapi.application.impl.ApplicationImpl.withoutImplicitRead(ApplicationImpl.java:1446)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:571)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:68)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:349)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:348)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:348)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:343)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:995)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:995)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$4(IdeEventQueue.kt:343)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:385)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2023-08-05 20:25:17,383 [   4049]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.toolWindow.ToolWindowDefaultLayoutManager$ToolWindowLayoutStorageManagerState
+2023-08-05 20:25:17,464 [   4130]   WARN - com.sun.jna.Native - JNA: Callback com.intellij.openapi.wm.impl.GlobalMenuLinux@6d7b9b19 threw the following exception
+java.lang.RuntimeException: com.intellij.openapi.actionSystem.impl.Utils$ProcessCanceledWithReasonException
+	at com.intellij.openapi.application.impl.LaterInvocator.invokeAndWait(LaterInvocator.java:133)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:448)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:468)
+	at com.intellij.openapi.wm.impl.GlobalMenuLinux._handleEvent(GlobalMenuLinux.java:728)
+	at com.intellij.openapi.wm.impl.GlobalMenuLinux.handleEvent(GlobalMenuLinux.java:678)
+	at jdk.internal.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.jna.CallbackReference$DefaultCallbackProxy.invokeCallback(CallbackReference.java:585)
+	at com.sun.jna.CallbackReference$DefaultCallbackProxy.callback(CallbackReference.java:616)
+	at com.sun.jna.Native.invokeVoid(Native Method)
+	at com.sun.jna.Function.invoke(Function.java:415)
+	at com.sun.jna.Function.invoke(Function.java:361)
+	at com.sun.jna.Library$Handler.invoke(Library.java:265)
+	at com.intellij.openapi.wm.impl.$Proxy33.runMainLoop(Unknown Source)
+	at com.intellij.openapi.wm.impl.GlobalMenuLinux.lambda$static$5(GlobalMenuLinux.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.intellij.openapi.actionSystem.impl.Utils$ProcessCanceledWithReasonException
+	at com.intellij.openapi.actionSystem.impl.Utils.runLoopAndWaitForFuture(Utils.java:842)
+	at com.intellij.openapi.actionSystem.impl.Utils.expandActionGroupImpl(Utils.java:252)
+	at com.intellij.openapi.actionSystem.impl.Utils.lambda$fillMenu$6(Utils.java:343)
+	at com.intellij.openapi.actionSystem.impl.Utils.computeWithRetries(Utils.java:855)
+	at com.intellij.openapi.actionSystem.impl.Utils.fillMenu(Utils.java:342)
+	at com.intellij.openapi.actionSystem.impl.ActionMenu.fillMenu(ActionMenu.java:451)
+	at com.intellij.openapi.wm.impl.GlobalMenuLinux.lambda$_handleEvent$11(GlobalMenuLinux.java:749)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
+	at com.intellij.openapi.application.impl.ApplicationImpl$3.run(ApplicationImpl.java:456)
+	at com.intellij.openapi.application.impl.LaterInvocator$1.run(LaterInvocator.java:101)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:79)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:122)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:788)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:731)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:758)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:667)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$7(IdeEventQueue.kt:571)
+	at com.intellij.openapi.application.impl.ApplicationImpl.withoutImplicitRead(ApplicationImpl.java:1446)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:571)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:68)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:349)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:348)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:348)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:343)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:995)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:995)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$4(IdeEventQueue.kt:343)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:385)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2023-08-05 20:25:17,840 [   4506]   WARN - #c.i.o.w.i.s.w.StatusBarWidgetsManager - com.jetbrains.dpa.DpaIconWidgetFactory doesn't define id for extension (point=com.intellij.statusBarWidgetFactory). Please specify `id` attribute.
+2023-08-05 20:25:17,841 [   4507]   WARN - #c.i.o.w.i.s.w.StatusBarWidgetsManager - com.jetbrains.rider.plugins.unity.ui.shaders.ShaderWidgetFactory doesn't define id for extension (point=com.intellij.statusBarWidgetFactory). Please specify `id` attribute.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+2023-08-05 20:25:22,131 [   8797]   WARN - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 130
+2023-08-05 20:25:22,157 [   8823] SEVERE - #c.j.r.p.ReSharperProcess - IdeaLoggingEvent[message=Rider host has unexpectedly exited with exit code 130., throwable=java.lang.Throwable
+	at com.intellij.idea.IdeaLogger.error(IdeaLogger.java:127)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:216)
+	at com.jetbrains.rider.protocol.ReSharperProcessBase$start$processListener$1.processTerminated(ReSharperProcessBase.kt:439)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.intellij.execution.process.ProcessHandler$2.invoke(ProcessHandler.java:252)
+	at jdk.proxy1/jdk.proxy1.$Proxy1.processTerminated(Unknown Source)
+	at com.intellij.execution.process.ProcessHandler.lambda$notifyTerminated$2(ProcessHandler.java:210)
+	at com.intellij.execution.process.ProcessHandler$TasksRunner.execute(ProcessHandler.java:285)
+	at com.intellij.execution.process.ProcessHandler.notifyTerminated(ProcessHandler.java:193)
+	at com.intellij.execution.process.ProcessHandler.notifyProcessTerminated(ProcessHandler.java:189)
+	at com.intellij.execution.process.BaseProcessHandler.onOSProcessTerminated(BaseProcessHandler.java:61)
+	at com.intellij.execution.process.BaseOSProcessHandler$1.lambda$startNotified$0(BaseOSProcessHandler.java:84)
+	at com.intellij.execution.process.ProcessWaitFor.lambda$new$0(ProcessWaitFor.java:45)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:227)
+	at com.intellij.execution.process.ProcessWaitFor.lambda$new$1(ProcessWaitFor.java:23)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]
