@@ -1,5 +1,7 @@
 #nullable enable
 
+using System.Numerics;
+
 namespace Thundershock.Graphics;
 
 public abstract class GraphicsCard
@@ -19,6 +21,12 @@ public abstract class GraphicsCard
 	///		Called when the graphics card is deactivated.
 	/// </summary>
 	protected abstract void OnDeactivate();
+	
+	/// <summary>
+	///		Clears the screen to the specified color.
+	/// </summary>
+	/// <param name="clearColor"></param>
+	public abstract void Clear(Vector3 clearColor);
 	
 	/// <summary>
 	///		Instructs the graphics card to present the current frame to its display.

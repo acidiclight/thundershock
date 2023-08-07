@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Text;
+using Thundershock.Rendering;
 using Thundershock.Windowing;
 
 namespace Thundershock;
@@ -107,6 +108,7 @@ public abstract class Application :
 	private void Initialize()
 	{
 		moduleManager.AddModule(windowingModule);
+		moduleManager.AddModule<RenderModule>();
 
 		RegisterModules(moduleManager);
 		

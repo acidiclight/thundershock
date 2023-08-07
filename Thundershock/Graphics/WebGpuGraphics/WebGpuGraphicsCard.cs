@@ -1,3 +1,4 @@
+using System.Numerics;
 using Silk.NET.WebGPU;
 using Thundershock.Windowing;
 
@@ -11,6 +12,7 @@ public sealed unsafe class WebGpuGraphicsCard : GraphicsCard
 	private Surface* nativeSurface;
 	private Adapter* adapter;
 	private Device* device;
+	private SwapChain* swapChain;
 
 	public WebGpuGraphicsCard(IWindow window)
 	{
@@ -57,8 +59,15 @@ public sealed unsafe class WebGpuGraphicsCard : GraphicsCard
 		);
 
 		TextureFormat surfaceFormat = wgpu.SurfaceGetPreferredFormat(nativeSurface, adapter);
+
+		var swapChainDescriptor = new SwapChainDescriptor()
+		{
+			Width = 1280,
+			Height = 720,
+			Format = surfaceFormat
+		};
 		
-		
+		this.swapChain = wgpu.DeviceCreateSwapChain(this.device, this.nativeSurface, in swapChainDescriptor);
 	}
 
 	/// <inheritdoc />
@@ -69,8 +78,15 @@ public sealed unsafe class WebGpuGraphicsCard : GraphicsCard
 	}
 
 	/// <inheritdoc />
+	public override void Clear(Vector3 clearColor)
+	{
+		
+	}
+
+	/// <inheritdoc />
 	public override void Present()
 	{
+		wgpu.SwapChainPresent(swapChain);
 	}
 
 	private Surface* CreateNativeWindowSurface()
