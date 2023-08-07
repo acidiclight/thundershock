@@ -24,8 +24,14 @@ public static class Clock
 	/// </summary>
 	internal static void Init()
 	{
+		Log.PushCategory("Clock");
+		
+		Log.Message("Tick, tock, I'm a clock.");
+
 		TotalTime = TimeSpan.Zero;
 		DeltaTime = 0;
+
+		Log.PopCategory();
 	}
 
 	/// <summary>

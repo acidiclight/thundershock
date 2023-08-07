@@ -6,6 +6,7 @@ public interface IWindow
 	int Height { get; set; }
 	bool IsOpen { get; }
 	string? Title { get; set; }
+	INativeWindow? NativeWindow { get; }
 
 	void Open();
 	void Close();

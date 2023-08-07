@@ -1,3 +1,5 @@
+using System.Reflection;
+using System.Text;
 using Thundershock.Windowing;
 
 namespace Thundershock;
@@ -7,6 +9,7 @@ public abstract class Application :
 {
 	private static Application? currentInstance;
 
+	private readonly StringBuilder logStringBuilder = new StringBuilder();
 	private ModuleManager moduleManager;
 	private WindowingModule windowingModule;
 	private bool exitRequested;
@@ -34,6 +37,26 @@ public abstract class Application :
 	/// </summary>
 	public void Run()
 	{
+		Log.OnMessageLogged += HandleApplicationLogs;
+		Log.Message("Logging has been initialized.");
+		
+		Assembly appAssembly = this.GetType().Assembly;
+
+		ApplicationInfo.CompanyName = appAssembly.GetCustomAttributes(false)
+			.OfType<AssemblyCompanyAttribute>()
+			.First()
+			.Company;
+
+		ApplicationInfo.ProductName = appAssembly.GetCustomAttributes(false)
+			.OfType<AssemblyProductAttribute>()
+			.First()
+			.Product;
+		
+		Log.Message($"Application name: {ApplicationInfo.ProductName}");
+		Log.Message($"Developer: {ApplicationInfo.CompanyName}");
+		Log.Message($"Persistent data path: {ApplicationInfo.PersistentDataPath}");
+		Log.Message($"Base directory: {ApplicationInfo.BaseDirectory}");
+
 		Clock.Init();
 		
 		Initialize();
@@ -41,6 +64,23 @@ public abstract class Application :
 		RunLoop();
 
 		Shutdown();
+		
+		Log.OnMessageLogged -= HandleApplicationLogs;
+	}
+
+	private void HandleApplicationLogs(in Log.LogMessage message)
+	{
+		// TODO: We really need a better logging system than this. 
+		logStringBuilder.Length = 0;
+
+		logStringBuilder.Append("[");
+		logStringBuilder.Append(message.TimeStamp);
+		logStringBuilder.Append("] <");
+		logStringBuilder.Append(message.Category);
+		logStringBuilder.Append("> ");
+		logStringBuilder.Append(message.Text);
+		
+		Console.WriteLine(logStringBuilder);
 	}
 
 	private void RunLoop()
@@ -68,6 +108,8 @@ public abstract class Application :
 	{
 		moduleManager.AddModule(windowingModule);
 
+		RegisterModules(moduleManager);
+		
 		moduleManager.Initialize();
 		OnInitialize();
 	}
@@ -89,6 +131,11 @@ public abstract class Application :
 	}
 
 	protected virtual void OnShutdown()
+	{
+		
+	}
+
+	protected virtual void RegisterModules(ModuleManager moduleManager)
 	{
 		
 	}
